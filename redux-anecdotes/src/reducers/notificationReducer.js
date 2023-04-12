@@ -11,9 +11,9 @@ export const notificationSlice = createSlice({
                 return state = `You voted: '${action.payload}'`
             },
             showCreateNew(state, action) {
-              return state = `You created: '${action.payload}'`
+                return state = `You created: '${action.payload}'`
             },
-            deleteNotification(state){
+            deleteNotification(state) {
                 return state = null
             }
         }
